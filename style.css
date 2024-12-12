@@ -1,28 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f6f6f6;
+    background-color: lightblue;
     color: #333;
+    text-align: center;
 }
 
 header, footer {
     text-align: center;
 }
 
-header h1 {
-    margin-bottom: 0;
-}
-
-main p {
-    line-height: 1.5;
+main, ul {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
 }
 
 ul {
     list-style-type: disc;
+    padding: 0;
     margin-left: 20px;
 }
 
 footer p {
     font-size: 0.875rem;
     color: #666;
+    margin-top: 20px;
 }
